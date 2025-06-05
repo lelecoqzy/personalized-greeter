@@ -10,9 +10,10 @@ public class Main {
         System.out.print("Please type your name: ");
         String userName = scanner.nextLine();
 
-        System.out.println("Nome lido: " + userName);
-        System.out.println(greeter.greet(userName));
+        String greetingMessage = greeter.greet(userName);
+        System.out.println(greetingMessage);
 
         scanner.close();
+        System.out.println("-------------------------");
     }
 }
