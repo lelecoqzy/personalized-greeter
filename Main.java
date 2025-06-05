@@ -11,7 +11,7 @@ public class Main {
         String userName = scanner.nextLine();
 
         System.out.println("Nome lido: " + userName);
-        System.out.println(greeter.greet("World")); // Generic greeting
+        System.out.println(greeter.greet(userName));
 
         scanner.close();
     }
